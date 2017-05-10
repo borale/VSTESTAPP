@@ -340,20 +340,6 @@
               "priority": 102,
               "direction": "Outbound"
             }
-          },
-          {
-            "name": "octo",
-            "properties": {
-              "description": "Allow octo",
-              "protocol": "Tcp",
-              "sourcePortRange": "*",
-              "destinationPortRange": "5001",
-              "sourceAddressPrefix": "Internet",
-              "destinationAddressPrefix": "*",
-              "access": "Allow",
-              "priority": 103,
-              "direction": "Outbound"
-            }
           }
         ]
       }
