@@ -52,7 +52,7 @@
     },
     "armSitecoreDEMO_coreEdition": {
       "type": "string",
-      "defaultValue": "Basic",
+      "defaultValue": "Standart",
       "allowedValues": [
         "Basic",
         "Standard",
@@ -61,7 +61,7 @@
     },
     "armSitecoreDEMO_coreRequestedServiceObjectiveName": {
       "type": "string",
-      "defaultValue": "Basic",
+      "defaultValue": "S2",
       "allowedValues": [
         "Basic",
         "S0",
@@ -86,7 +86,7 @@
     },
     "armSitecoreDEMO_masterEdition": {
       "type": "string",
-      "defaultValue": "Basic",
+      "defaultValue": "Standart",
       "allowedValues": [
         "Basic",
         "Standard",
@@ -95,7 +95,7 @@
     },
     "armSitecoreDEMO_masterRequestedServiceObjectiveName": {
       "type": "string",
-      "defaultValue": "Basic",
+      "defaultValue": "S2",
       "allowedValues": [
         "Basic",
         "S0",
@@ -154,7 +154,7 @@
     },
     "armSitecoreDEMO_webEdition": {
       "type": "string",
-      "defaultValue": "Basic",
+      "defaultValue": "Standart",
       "allowedValues": [
         "Basic",
         "Standard",
@@ -163,7 +163,7 @@
     },
     "armSitecoreDEMO_webRequestedServiceObjectiveName": {
       "type": "string",
-      "defaultValue": "Basic",
+      "defaultValue": "S2",
       "allowedValues": [
         "Basic",
         "S0",
@@ -191,7 +191,7 @@
     "publicIPAddressType": "Static",
     "vhdStorageContainerName": "vhds",
     "vmName": "SitecoreVMDEMO",
-    "vmSize": "Standard_A2",
+    "vmSize": "Standard_A4_v2",
     "virtualNetworkName": "MyVNET",
     "vnetId": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
     "subnetRef": "[concat(variables('vnetId'), '/subnets/', variables('subnetName'))]",
