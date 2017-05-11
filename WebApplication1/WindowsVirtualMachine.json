@@ -52,7 +52,7 @@
     },
     "armSitecoreDEMO_coreEdition": {
       "type": "string",
-      "defaultValue": "Standart",
+      "defaultValue": "Standard",
       "allowedValues": [
         "Basic",
         "Standard",
@@ -86,7 +86,7 @@
     },
     "armSitecoreDEMO_masterEdition": {
       "type": "string",
-      "defaultValue": "Standart",
+      "defaultValue": "Standard",
       "allowedValues": [
         "Basic",
         "Standard",
@@ -154,7 +154,7 @@
     },
     "armSitecoreDEMO_webEdition": {
       "type": "string",
-      "defaultValue": "Standart",
+      "defaultValue": "Standard",
       "allowedValues": [
         "Basic",
         "Standard",
